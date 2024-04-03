@@ -1,6 +1,7 @@
 import React from "react"
-import Resume from "./styles/componentes/Resume"
 import Header from "./styles/componentes/Header"
+import Resume from "./styles/componentes/Resume"
+import Form from "./styles/componentes/form"
 import GlobalStyle from "./styles/global"
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
         <>
             <Header />
             <Resume />
+            <Form />
             <GlobalStyle />
         </> 
     )
